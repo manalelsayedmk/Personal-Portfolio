@@ -1,0 +1,338 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+}
+
+
+.container{
+    margin: 60px;
+}
+
+nav h1 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+}
+nav h1 span{
+    color:#ffae00
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 80px;
+    position: sticky;
+    top: 0;
+    z-index: 5;
+    background-color: black;
+}
+nav ul {
+    display: flex;
+    gap: 30px;
+}
+nav ul a{
+    font-size: 25px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+
+
+}
+nav ul a:hover{
+    color:#ffae00
+}
+header h4{
+    font-weight: normal;
+    color: #fff;
+    font-style: italic;
+    font-size: 30px;
+}
+
+header h1{
+    color: #fff;
+}
+header h2{
+color: #fff;
+}
+header p{
+    font-size: 30px;
+    margin-top: 20px;
+    color: #fff;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header img{
+    width: 500px;
+    height: 500px;
+    border-radius: 90%;
+
+}
+
+header h1{
+    font-weight: bold;
+    font-size: 50px;
+}
+header h1 span{
+    
+    color:#ffae00
+
+}
+
+header h2{
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+.about{
+    color: #fff;
+    display: flex;
+    gap: 200px;
+}
+.about img{
+    width: 500px;
+    height: 500px;
+    border-radius: 90%;
+}
+.leftabout>*{
+    margin-top: 30px;
+}
+.leftabout h1{
+    font-size: 50px;
+}
+.leftabout p{
+    font-size: 20px;
+
+}
+.about .tabs{
+    color: #fff;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+}
+
+
+.about .tab p{
+    color: #ffae00;
+    font-size: 30px;
+    margin-bottom: 10px;
+
+}
+
+
+.about .tab ul li{
+    list-style: none;
+    margin-bottom: 10px;
+}
+.services{
+    color: #fff;
+
+}
+.services h1{
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+
+}
+.card>*{
+    margin-bottom: 20px;
+}
+.card{
+    width: 30%;
+    background-color: #262626;
+    padding: 20px;
+    height: 180px;
+    border-radius: 20px;
+    transition:  0.5s;
+    transform: 0.5s;
+
+}
+.card:hover{
+    background-color: #ffae00;
+    color: #262626;
+    cursor: pointer;
+    transform: translatey(-10px);
+}
+
+.card h2{
+    font-size: 30px;
+}
+.card p{
+    font-size: 20px;
+}
+
+.myproject {
+    color: #fff;
+
+}
+.myproject h1{
+    font-size: 50px;
+}
+
+.projects {
+    display: flex;
+    margin-top: 50px;
+    align-items: center;
+    gap: 10px;
+}
+.project {
+    width: 24%;
+    height: 150px;
+    background-color: #262626;
+    padding: 40px;
+    border-radius: 20px;
+    transition: 0.5s;
+    transform: 0.5s;
+}
+.project:hover{
+    background-color: #ffae00;
+    transform: translateY(-10px);
+}
+.project img{
+    width: 100%;
+    height: 100px;
+}
+.project a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+}
+.project a:hover{
+    color: blue;
+}
+
+.myproject button{
+    padding: 10px;
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 45%;
+    background-color: black;
+    color: #fff;
+    border-color: #ffae00;
+    font-size: 20px;
+
+}
+.contact{
+    display: flex;
+    align-items:baseline;
+    justify-content: space-between;
+}
+.rightcontact{
+    color: #fff;
+    width: 50%;
+}
+.rightcontact h1{
+    font-size: 50px;
+   
+}
+.rightcontact h2{
+    font-size: 25px;
+    margin-top: 30px;
+}
+.rightcontact button{
+    font-size: 20px;
+    margin-top: 30px;
+    padding: 10px;
+    color: #fff;
+    background-color: #ffae00;
+    border: none;
+    cursor: pointer;
+    transition: 0.7s;
+    border-radius: 10px;
+
+}
+.rightcontact button:hover{
+    background-color: white;
+    color: #262626;
+    transform: scale(1.1);
+
+}
+.leftcontact>*{
+    margin-top: 20px;
+}
+.leftcontact{
+    width: 50%;
+}
+
+
+.leftcontact textarea,.leftcontact input {
+    width: 80%;
+    padding: 10px;
+    background-color: #262626;
+    color: #fff;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.leftcontact button{
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: #ffae00;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: 0.7s;
+    border-radius: 10px;
+
+}
+.leftcontact button:hover{
+    background-color: #fff;
+    color: #262626;
+    transform: scale(1.1);
+}
+.rightcontact h2 i{
+margin-right: 30px;
+color: #ffae00;
+font-size: 30px;
+
+}
+.rightcontact .social{
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.rightcontact .social i{
+    font-size: 40px;
+    color: #ffae00;
+
+}
+
+
+footer{
+    color: #fff;
+    padding: 10px 50px;
+    font-size: 20px;
+    background-color: #262626;
+}
+footer span{
+    color: #ffae00;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
